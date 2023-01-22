@@ -2,7 +2,8 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div>App</div>
+    <h1 className='text-3x1 font-bold underline'>app.jsx return with tailwind classNames of "text-3x1 font-bold underline".</h1>
+
   )
 }
 
