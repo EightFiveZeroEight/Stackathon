@@ -1,6 +1,6 @@
 // A file where we can create different functions to reuse inside of our application
 
-import {surpriseMePrompts, SurpriseMePrompts} from '../constants'
+import {surpriseMePrompts} from '../constants'
 
 export function getRandomPrompt(prompt){
   const randomIndex =Math.floor(Math.random() * surpriseMePrompts.length);
