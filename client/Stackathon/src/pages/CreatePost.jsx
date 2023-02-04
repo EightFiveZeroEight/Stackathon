@@ -37,7 +37,15 @@ const CreatePost = () => {
             prompt: form.prompt,
           }),
         });
-
+        console.log(`***
+***
+***
+Logging: Logging the response in CreatePost.jsx
+***
+***
+***
+`, response);
+//Response {type: 'cors', url: 'https://dalle-arbb.onrender.com/api/v1/dalle', redirected: false, status: 500, ok: false, …}
         const data = await response.json();
         setForm({ ...form, photo: `data:image/jpeg;base64,${data.photo}` });
       } catch (err) {
